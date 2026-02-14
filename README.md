@@ -16,16 +16,16 @@ End-to-end analysis of IPL matches/deliveries (2008-2017, 50K+ rows)
 ## 📱 **4-Page Dashboard Walkthrough**
 
 **1. Executive Overview** (KPIs + slicers)  
-![Executive](images/executive-overview.png)
+![Executive](images/Executive.png)
 
 **2. Batsman Analysis** (Treemaps by dismissal)  
-![Batsman](images/batsman-analysis.png)
+![Batsman](images/Batsman.png)
 
 **3. Bowler Performance** (Venue metrics)  
-![Bowler](images/bowler-performance.png)
+![Bowler](images/Bowler.png)
 
 **4. Stadium Overview** ⭐ (Maps + venue wins)  
-![Stadium](images/stadium-overview.png)
+![Stadium](images/Stadium.png)
 
 ## 💻 **Technical Implementation**
 
