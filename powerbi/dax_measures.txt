@@ -1,0 +1,17 @@
+  High Margin Wins (Max) = 
+CALCULATE(
+    MAX('cricket_schema matches'[win_by_runs]),
+    'cricket_schema matches'[win_by_runs] > 0
+)
+
+Dismissal Count = 
+CALCULATE(
+    COUNTROWS('cricket_schema deliveries'),
+    'cricket_schema deliveries'[dismissal_kind] <> ""
+)
+
+Toss Win % = 
+DIVIDE(
+    CALCULATE(COUNT(matches[winner]), matches[winner] = matches[toss_winner]),
+    COUNT(matches[toss_winner])
+)
